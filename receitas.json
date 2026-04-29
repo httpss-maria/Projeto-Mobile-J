@@ -13,7 +13,7 @@
  "Asse em forno 180°C por 35–40 minutos."]},
  "videoUrl": "https://raw.githubusercontent.com/httpss-maria/Projeto-Mobile-J/blob/main/videos/laranja.mp4?raw=true" },
 
- { "id": "6", "nome": "Aipim", "img": "bolo_aipim.png", "ingredientes":{"Massa": ["1 kg de aipim (mandioca) ralado",
+ { "id": "6", "nome": "Bolo de Aipim", "img": "bolo_aipim.png", "ingredientes":{"Massa": ["1 kg de aipim (mandioca) ralado",
   "3 ovos", "2 xícaras de açúcar", "200 ml de leite de coco", "2 colheres (sopa) de manteiga", "1 pitada de sal",    
   "100 g de coco ralado (opcional)"]}, "utensilios": ["Tigela (bacia)", "Colher de pau ou espátula",
   "Liquidificador (opcional)", "Ralador", "Forma de bolo", "Forno",
