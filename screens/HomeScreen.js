@@ -22,6 +22,8 @@ const RECEITAS_INICIAIS = [
  { id: "4", nome: 'Bolo de Limão', img: 'bolo_de_limao.png', ingredientes:{"Massa": ["4 ovos", "1 xícara de açúcar", "1 xícara de suco de limão", "1 xícara de leite", "½ xícara de óleo", "2 xícaras de farinha de trigo", "1 colher de fermento"], "Calda":["1 caixa de leite condensado", "Suco de 3 limões"]}, utensilios: ["Tigela (bacia)", "Colher de pau ou espátula", "Batedor (fouet) ou garfo", "Forma de bolo", "Forno Ralador (para o limão)", "Espremedor de limão (opcional)", "Xícara e colher medidora"], passos:{"Massa": ["Em uma tigela, bata os ovos com o açúcar até misturar bem.", "Adicione o óleo e o suco de limão, misture novamente.", "Coloque a farinha de trigo aos poucos, mexendo até a massa ficar homogênea.", "Acrescente as raspas de limão (opcional) e misture.", "Por último, adicione o fermento e mexa levemente.", "Despeje a massa em uma forma untada.", "Leve ao forno pré-aquecido a 180°C por cerca de 35 a 40 minutos.", "Espere esfriar um pouco, desenforme e pronto, coloque a calda."]}, videoUrl: 'https://raw.githubusercontent.com/httpss-maria/Projeto-Mobile-J/main/videos/bolo-de-limao.mp4?raw=true' },
 ]
 
+
+export default function HomeScreen({ navigation }) {
   const [receitas, setReceitas] = useState(RECEITAS_INICIAIS);
   const [carregando, setCarregando] = useState(false);
 
